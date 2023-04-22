@@ -8,7 +8,12 @@
   Пресет с настройками. prettier должен быть последним. 
   Он удаляет некоторые правила eslint из-за которых могут возникать конфликты
   */
-    "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb",
+        "prettier"
+    ],
     "parser": "babel-eslint", // Парсер для обработки jsx кода
     "parserOptions": {
         "ecmaFeatures": {
