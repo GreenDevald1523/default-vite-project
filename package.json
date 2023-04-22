@@ -1,6 +1,7 @@
 {
     "name": "vite-project",
-    "private": true,
+    "private": false,
+    "license" : "MIT",
     "version": "0.0.0",
     "type": "module",
     "scripts": {
